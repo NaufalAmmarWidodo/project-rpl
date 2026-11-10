@@ -1,0 +1,23 @@
+{
+  "name": "project-rpl",
+  "version": "1.0.0",
+  "description": "Fotocopy Cemerlang Indah - ATK, Percetakan, dan Service Mesin Fotocopy",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm --workspace=web run build",
+    "start": "npm --workspace=api run start",
+    "dev:api": "npm --workspace=api run dev",
+    "dev:web": "npm --workspace=web run dev",
+    "build:web": "npm --workspace=web run build",
+    "lint:web": "npm --workspace=web run lint",
+    "start:api": "npm --workspace=api run start",
+    "seed:api": "npm --workspace=api run seed",
+    "create:user": "npm --workspace=api run create:user"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
